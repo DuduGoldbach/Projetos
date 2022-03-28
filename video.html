@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adicionando videos no html</title>
+</head>
+<body>
+    <!--Handbrake software opensorce para converter videos-->
+    <h1>video inserido localmente</h1>
+    <p> POREM OCUPA MUITA BANDA DE INTERNET</p>
+    <!-- maneira simples de vincular o video.
+    <video src="pexels-rulo-davila.mp4" width="300" controls></video> 
+abaixo a maneira mais usual-->
+
+<video controls width="300"><!--caso queira um capa utilizar o comando "poster"-->
+    <!--utilizando mais foratos de video para utilizar em diversos navegadores-->
+<source src="pexels-rulo-davila.mp4" type="video/mp4">
+<source src="pexels-rulo-davila.m4v" type="video/mp4">
+<source src="pexels-rulo-davila.webm" type="video/webm">
+<source src="pexels-rulo-davila.ogv" type="video/ogg">
+</video>
+
+
+<h1>Inserindo videos direto do YouTube</h1>
+<p>sempre cuidado com os registros e autorização do video.</p>
+<p>video abaixo utilizado somente para teste e aprendizado</p>
+<!-- utilizando compartilhamento do Youtube para incorporar o video-->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/bP9gMpl1gyQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>
