@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Colocando audio no html5</title>
+</head>
+<body>
+    <h1>reproduzindo audio</h1>
+
+    <audio preload="metadata" autoplay controls>
+        <!--autoplay as vezes nao funciona por causa do navegador,
+        a função preload carrega informações antes do site abir por completo,
+        a determinação Metadata carrega somente informações antes do arquivo completo, ex player de musica, onde carrega as informações como duração antes de carregar o som
+        a função controls adiciona o controlador para o usuario apertar o play-->
+        <source src="onceagain.mp3" type="audio/mpeg">
+        <source src="onceagain.ogg" type="audio/ogg">
+        <source src="onceagain.wav" type="audio/wav">
+    </audio>
+</body> 
+</html>
